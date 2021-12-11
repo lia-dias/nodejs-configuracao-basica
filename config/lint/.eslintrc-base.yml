@@ -1,0 +1,200 @@
+rules:
+  # Força o uso de espaços dentro de colchetes - https://eslint.org/docs/rules/array-bracket-spacing
+  array-bracket-spacing:
+    - error
+    - always
+
+  # Força o uso da declaração 'return' em callbacks de arrays - https://eslint.org/docs/rules/array-callback-return
+  array-callback-return:
+    - error
+
+  # Força o uso de parenteses nas funções definidas como arrow functions - https://eslint.org/docs/rules/arrow-parens
+  arrow-parens:
+    - error
+
+  # Desabilita camelCase para variáveis e propriedades de objetos - https://eslint.org/docs/rules/camelcase
+  camelcase:
+    - off
+
+  # Força o uso de espaços após vírgulas e proíbe o uso de espaço antes delas - https://eslint.org/docs/rules/comma-spacing
+  comma-spacing:
+    - error
+
+  # Força o uso de comparações profundas entre variáveis (=== e !==) - https://eslint.org/docs/rules/eqeqeq 
+  eqeqeq:
+    - error
+
+  # Força o uso de espaço antes do asterisco da declaração de uma função geradora, mas proíbe o uso após o asterisco - https://eslint.org/docs/rules/generator-star-spacing 
+  generator-star-spacing:
+    - error
+    - 
+      before: false
+      after: true
+
+  # Força o uso de 4 espaçoes como identação para cada bloco aninhado - https://eslint.org/docs/rules/indent
+  indent:
+    - error
+    - 4
+
+  # Força o uso de espaços antes e depois de palavras chaves - https://eslint.org/docs/rules/keyword-spacing
+  keyword-spacing:
+    - error
+    
+  # Força o uso de '\n'como quebra de linha - https://eslint.org/docs/rules/linebreak-style
+  linebreak-style:
+    - error
+    - unix
+    
+  # Permite o uso de funções assíncronas como callback de Promises - https://eslint.org/docs/rules/no-async-promise-executor
+  no-async-promise-executor:
+    - off
+
+  # Desencoraja o uso da variável 'console' - https://eslint.org/docs/rules/no-console
+  no-console:
+    - warn
+
+  # Desencoraja o uso de longas strings usando quebra de linha por '\' - https://eslint.org/docs/rules/no-multi-str
+  no-multi-str:
+    - warn
+
+
+  # Desabilita a reatribuição em variáveis passadas por parâmetros - https://eslint.org/docs/rules/no-param-reassign
+  no-param-reassign:
+    - error
+    -
+      props: false
+
+  # Proíbe o uso de atribuíções em declarações de retorno - https://eslint.org/docs/rules/no-return-assign
+  no-return-assign:
+    - error
+
+  
+  # Proíbe a redundância no retorno de declarações com 'await' - https://eslint.org/docs/rules/no-return-await
+  no-return-await:
+    - error
+
+  # Permite o uso de underscores no início e no final de variáveis - https://eslint.org/docs/rules/no-underscore-dangle
+  no-underscore-dangle:
+    - off
+
+  # Alerta sobre o uso de códigos não alcançáveis como códigos após 'return', 'throw', 'continue' e 'break' - https://eslint.org/docs/rules/no-unreachable
+  no-unreachable:
+    - warn
+
+  # Proíbe que uma variável seja utilizada antes de sua declaração - https://eslint.org/docs/rules/no-use-before-define
+  no-use-before-define:
+    - error
+
+  # Alerta a declaração de variáveis não utilizadas - https://eslint.org/docs/rules/no-unused-vars
+  no-unused-vars:
+    - warn
+
+  # Permite o uso dos operadores unários ++ e -- apenas na declaração de laços repetitivos - https://eslint.org/docs/rules/no-plusplus
+  no-plusplus:
+    - error
+    -
+      allowForLoopAfterthoughts: true
+
+  # Proíbe o uso de lançamento de literais como excessão - https://eslint.org/docs/rules/no-throw-literal
+  no-throw-literal:
+    - error
+
+  # Permite o uso de declarações de mais de uma variável na mesma linha - https://eslint.org/docs/rules/one-var
+  one-var:
+    - off
+
+  # Desabilita a obrigatoriedade do uso de destructuring para arrays, mas recomenda para objetos - https://eslint.org/docs/rules/prefer-destructuring
+  prefer-destructuring:
+    - warn
+    -
+      array: false
+      object: true
+
+  # Desencoraja a rejeição de Promises com o uso de literais e objetos se não erros - https://eslint.org/docs/rules/prefer-promise-reject-errors
+  prefer-promise-reject-errors:
+    - warn
+
+  # Força o uso de aspas simples no uso de strings - https://eslint.org/docs/rules/quotes
+  quotes:
+    - error
+    - single
+
+  # Força o uso de aspas na declaração de props que sejam números e palavras chaves da línguagem - https://eslint.org/docs/rules/quote-props
+  quote-props:
+    - error
+    - as-needed
+    -
+      keywords: true
+      numbers: true
+      unnecessary: false
+      
+  # Força o uso da declarativa 'await' dentro de funções assíncronas - https://eslint.org/docs/rules/require-await
+  require-await:
+    - error
+
+  # Força o uso de ponto-e-vírgula no final de cada declaração - https://eslint.org/docs/rules/semi
+  semi:
+    - error
+    - always
+
+  # Força o uso do modo 'strict' em módulos ECMAScript - https://eslint.org/docs/rules/strict
+  strict:
+    - error
+
+  # Encoraja o uso de ordenação alfabética na declaração propriedades de um objeto - https://eslint.org/docs/rules/sort-keys
+  sort-keys:
+    - warn
+    - asc
+    -
+      caseSensitive: true
+
+  # Encoraja o uso de ordenação alfabética na declaração de variáveis em uma linha - https://eslint.org/docs/rules/sort-vars
+  sort-vars:
+    - warn
+    - ignoreCase: true
+
+  # Força o uso de um espaço antes do início de um bloco delimitado por {} - https://eslint.org/docs/rules/space-before-blocks
+  space-before-blocks:
+    - error
+    - 
+      functions: always
+      keywords: always
+      classes: always
+
+  # Força o uso de espaços antes e depois de delimitadores de comentários - https://eslint.org/docs/rules/spaced-comment
+  spaced-comment:
+    - error
+    - always
+
+  # Força o uso de espaços dentro de parêntesis - https://eslint.org/docs/rules/space-in-parens
+  space-in-parens:
+    - error
+    - always
+
+  # Força o uso de declaraçoes de variáveis no início do escopo (apenas var, não inclui const e let) - https://eslint.org/docs/rules/vars-on-top
+  vars-on-top:
+    - error
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
