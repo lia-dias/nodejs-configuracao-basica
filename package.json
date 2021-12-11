@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-configuracao-basica",
+  "version": "0.0.1",
+  "description": "Projeto de exemplo de configurações básicas para serem utilizadas em projetos NodeJS",
+  "main": "index.js",
+  "repository": "git@github.com:lia-dias/nodejs-configuracao-basica.git",
+  "author": "Lia Dias <liadias914@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
