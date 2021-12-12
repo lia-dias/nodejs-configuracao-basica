@@ -16,3 +16,6 @@ Incluído `lint-staged` para observação de arquivos alterados e execução de 
 ## v.0.3.0
 Incluído `jest` para execução de testes automatizados. A chamada do `jest` utiliza o parâmetro `--findRelatedTests` associado ao `lint-estaged`e ao `hook`de pré commit do `husky`, para buscar os testes associados aos arquivos modificados, e o parâmetro `--bail` para terminar a execução dos testes e lançar um erro assim que a primeira falha é encontrada.
 Foi adicionado também o script `test` no `package.json`.
+
+## v.0.4.0
+Incluído `commitizen` para padronização de commits. Atualmente utilizando o padrão `conventional-changelog` definido pelo Angular.
