@@ -11,9 +11,12 @@
     "lint-all": "yarn run eslint index.js src/**/*.js",
     "lint-all-fix": "yarn run eslint --fix index.js src/**/*.js",
     "test": "yarn run jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commitizen": "yarn run cz"
   },
   "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "^8.4.1",
     "husky": "^7.0.4",
     "jest": "^27.4.4",
