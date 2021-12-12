@@ -1,2 +1,4 @@
 'use strict';
-const source = require( './src/index' );
+const { lowerCase } = require( './src/index' );
+
+console.log( lowerCase( 'Hello World!' ) );
